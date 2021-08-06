@@ -9,9 +9,11 @@ Surfshark proves its worth with a large collection of privacy tools, an excellen
 Everythings you should know are at [Official Page](https://surfshark.com/features).
 ## Installation & Usage
 __You need to install `php` before this__
-`git clone https://github.com/Incognito-Coder/SurfSocks.git`
-`cd SurfSocks`
-`php app.php`
+```
+git clone https://github.com/Incognito-Coder/SurfSocks.git
+cd SurfSocks
+php app.php
+```
 ### Main Features
 ![Screenshot](https://github.com/Incognito-Coder/SurfSocks/blob/main/img/main.png "Application")
 1. Generate fresh Shadowsocks servers list.
