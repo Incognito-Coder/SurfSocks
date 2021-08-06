@@ -1,0 +1,1652 @@
+[
+  {
+    "server": "al-tia.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇱 Albania・Tirana",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ar-bua.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇷 Argentina・Buenos Aires",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "au-bne.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇺 Australia・Brisbane",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "au-adl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇺 Australia・Adelaide",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "au-syd.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇺 Australia・Sydney",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "au-mel.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇺 Australia・Melbourne",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "au-per.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇺 Australia・Perth",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "at-vie.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇹 Austria・Vienna",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "az-bak.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇿 Azerbaijan・Baku",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "be-bru.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇧🇪 Belgium・Brussels",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ba-sjj.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇧🇦 Bosnia & Herzegovina・Sarajevo",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "br-sao.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇧🇷 Brazil・Sao Paulo",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "bg-sof.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇧🇬 Bulgaria・Sofia",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ca-van.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇦 Canada・Vancouver",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ca-tor.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇦 Canada・Toronto",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ca-mon.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇦 Canada・Montreal",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "cl-san.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇱 Chile・Santiago",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "co-bog.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇴 Colombia・Bogota",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "cr-sjn.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇷 Costa Rica・San Jose",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "hr-zag.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇭🇷 Croatia・Zagreb",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "cy-nic.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇾 Cyprus・Nicosia",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "cz-prg.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇿 Czech Republic・Prague",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "dk-cph.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇩🇰 Denmark・Copenhagen",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ee-tll.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇪🇪 Estonia・Tallinn",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "fi-hel.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇮 Finland・Helsinki",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "fr-par.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇷 France・Paris",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "fr-bod.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇷 France・Bordeaux",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "fr-mrs.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇫🇷 France・Marseille",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ge-tbs.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇪 Georgia・Tbilisi",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "de-ber.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇩🇪 Germany・Berlin",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "de-fra.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇩🇪 Germany・Frankfurt am Main",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "gr-ath.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇷 Greece・Athens",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "hk-hkg.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇭🇰 Hong Kong・Hong Kong",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "hu-bud.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇭🇺 Hungary・Budapest",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "is-rkv.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇸 Iceland・Reykjavik",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "in-mum.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇳 India・Mumbai",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "in-chn.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇳 India・Chennai",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "in-idr.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇳 India・Indore",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "id-jak.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇩 Indonesia・Jakarta",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ie-dub.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇪 Ireland・Dublin",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "il-tlv.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇱 Israel・Tel Aviv",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "it-mil.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇹 Italy・Milan",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "it-rom.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇮🇹 Italy・Rome",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "jp-tok.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇯🇵 Japan・Tokyo",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "kz-ura.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇰🇿 Kazakhstan・Oral",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "lv-rig.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇱🇻 Latvia・Riga",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "lu-ste.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇱🇺 Luxembourg・Luxembourg",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "my-kul.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇲🇾 Malaysia・Kuala Lumpur",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "mx-mex.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇲🇽 Mexico・Mexico City",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "md-chi.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇲🇩 Moldova・Chisinau",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "nl-ams.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇳🇱 Netherlands・Amsterdam",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "nz-akl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇳🇿 New Zealand・Auckland",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ng-lag.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇳🇬 Nigeria・Lagos",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "mk-skp.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇲🇰 North Macedonia・Skopje",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "no-osl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇳🇴 Norway・Oslo",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pa-pac.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇦 Panama・Panama",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pe-lim.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇪 Peru・Lima",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ph-mnl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇭 Philippines・Manila",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pl-gdn.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇱 Poland・Gdansk",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pl-waw.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇱 Poland・Warsaw",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pt-lis.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇹 Portugal・Lisbon",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "pt-opo.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇵🇹 Portugal・Porto",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ro-buc.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇷🇴 Romania・Bucharest",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ru-mos.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇷🇺 Russia・Moscow",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "rs-beg.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇷🇸 Serbia・Belgrade",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "sg-sng.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇸🇬 Singapore・Singapore",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "sk-bts.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇸🇰 Slovakia・Bratislava",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "si-lju.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇸🇮 Slovenia・Ljubljana",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "za-jnb.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇿🇦 South Africa・Johannesburg",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "kr-seo.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇰🇷 South Korea・Seoul",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "es-bcn.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇪🇸 Spain・Barcelona",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "es-mad.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇪🇸 Spain・Madrid",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "es-vlc.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇪🇸 Spain・Valencia",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "se-sto.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇸🇪 Sweden・Stockholm",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ch-zur.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇭 Switzerland・Zurich",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "tw-tai.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇹🇼 Taiwan・Taichung City",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "th-bkk.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇹🇭 Thailand・Bangkok",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "tr-ist.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇹🇷 Turkey・Istanbul",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ua-iev.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇦 Ukraine・Kyiv",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ae-dub.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇪 United Arab Emirates・Dubai",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "uk-gla.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇧 United Kingdom・Glasgow",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "uk-lon.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇧 United Kingdom・London",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "uk-man.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇬🇧 United Kingdom・Manchester",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-mia.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Miami",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-ash.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Ashburn",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-nyc.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・New York",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-tpa.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Tampa",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-buf.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Buffalo",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-bos.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Boston",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-ltm.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Latham",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-orl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Orlando",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-mnz.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Manassas",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-atl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Atlanta",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-dtw.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Detroit",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-hou.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Houston",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-stl.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・St. Louis",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-slc.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Salt Lake City",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-clt.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Charlotte",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-chi.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Chicago",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-phx.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Phoenix",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-kan.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Kansas City",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-dal.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Dallas",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-den.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Denver",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-sea.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Seattle",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-sfo.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・San Francisco",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-las.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Las Vegas",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-lax.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Los Angeles",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "us-bdn.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇺🇸 United states・Bend",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "ve-car.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇻🇪 Venezuela・Caracas",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "vn-hcm.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇻🇳 Vietnam・Ho Chi Minh City",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  }
+]
