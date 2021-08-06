@@ -13,6 +13,6 @@ cd SurfSocks
 php app.php
 `
 ### Main Features
-![Screenshot](https://github.com/Incognito-Coder/SurfSocks/img/main.png "Application")
+![Screenshot](https://github.com/Incognito-Coder/SurfSocks/blob/main/img/main.png "Application")
 1. Generate fresh Shadowsocks servers list.
 2. Update old hostname to ip address
