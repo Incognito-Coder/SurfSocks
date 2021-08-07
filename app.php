@@ -37,7 +37,7 @@ function Generator()
             array_push($ips, $host2ip);
             array_push($domains, $server['server']);
             $encrypt = base64_encode($server['method'] . ":" . $password);
-            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . $server['remarks'] . "\n");
+            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . rawurlencode($server['remarks'])  . "\n");
             echo $server['remarks'] . ' : ' . $server['server'] . ' >>> ' . $host2ip . PHP_EOL;
         }
         $edited = str_replace($domains, $ips, $get);
@@ -75,7 +75,7 @@ function Update()
             array_push($ips, $host2ip);
             array_push($domains, $server['server']);
             $encrypt = base64_encode($server['method'] . ":" . $server['password']);
-            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $server['server_port'] . "#" . $server['remarks'] . "\n");
+            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $server['server_port'] . "#" . rawurlencode($server['remarks'])  . "\n");
             echo $server['remarks'] . ' : ' . $server['server'] . ' >>> ' . $host2ip . PHP_EOL;
         }
         $edited = str_replace($domains, $ips, $get);
@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             array_push($ips, $host2ip);
             array_push($domains, $server['server']);
             $encrypt = base64_encode($server['method'] . ":" . $password);
-            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . $server['remarks'] . "\n");
+            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . rawurlencode($server['remarks']) . "\n");
             echo $server['remarks'] . ' : ' . $server['server'] . ' >>> ' . $host2ip . PHP_EOL;
         }
         $edited = str_replace($domains, $ips, $get);
