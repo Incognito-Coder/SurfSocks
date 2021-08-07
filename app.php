@@ -109,39 +109,39 @@ if (isCommandLineInterface()) {
             echo "\033[33mUndefined entry.\033[0m\n";
             break;
     }
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if ($_POST['method'] == 'create') {
-        $password = $_POST['pass'];
-        $port = $_POST['port'];
-        $file_name = $_POST['name'];
-        echo "Proccessing ...\n";
-        if (file_exists('profiles.json')) {
-            $get = file_get_contents('profiles.json');
-        } else {
-            die("Profiles.json not in path\n");
+} else {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if ($_POST['method'] == 'create') {
+            $password = $_POST['pass'];
+            $port = $_POST['port'];
+            $file_name = $_POST['name'];
+            echo "Proccessing ...\n";
+            if (file_exists('profiles.json')) {
+                $get = file_get_contents('profiles.json');
+            } else {
+                die("Profiles.json not in path\n");
+            }
+            $json = json_decode($get, true);
+            $ips = [];
+            $domains = [];
+            $ssurl = [];
+            foreach ($json as $server) {
+                $host2ip = gethostbyname($server['server']);
+                array_push($ips, $host2ip);
+                array_push($domains, $server['server']);
+                $encrypt = base64_encode($server['method'] . ":" . $password);
+                array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . rawurlencode($server['remarks']) . "\n");
+                echo $server['remarks'] . ' : ' . $server['server'] . ' >>> ' . $host2ip . PHP_EOL;
+            }
+            $edited = str_replace($domains, $ips, $get);
+            $edited = str_replace('PASS', $password, $edited);
+            $edited = str_replace('8585', $port, $edited);
+            file_put_contents($file_name . '.json', $edited);
+            file_put_contents($file_name . '.txt', $ssurl);
+            echo "Proccess Done.";
+            echo "\nJson : <a href=\"" . FullPath() . $file_name . ".json\">Download</a>";
+            echo "\nURI : <a href=\"" . FullPath() . $file_name . ".txt\">Download</a>";
+        } elseif ($_POST['method'] == 'update') {
         }
-        $json = json_decode($get, true);
-        $ips = [];
-        $domains = [];
-        $ssurl = [];
-        foreach ($json as $server) {
-            $host2ip = gethostbyname($server['server']);
-            array_push($ips, $host2ip);
-            array_push($domains, $server['server']);
-            $encrypt = base64_encode($server['method'] . ":" . $password);
-            array_push($ssurl, "ss://" . $encrypt . "@" . $host2ip . ":" . $port . "#" . rawurlencode($server['remarks']) . "\n");
-            echo $server['remarks'] . ' : ' . $server['server'] . ' >>> ' . $host2ip . PHP_EOL;
-        }
-        $edited = str_replace($domains, $ips, $get);
-        $edited = str_replace('PASS', $password, $edited);
-        $edited = str_replace('8585', $port, $edited);
-        file_put_contents($file_name . '.json', $edited);
-        file_put_contents($file_name . '.txt', $ssurl);
-        echo "Proccess Done.";
-        echo "\nJson : <a href=\"" . FullPath() . $file_name . ".json\">Download</a>";
-        echo "\nURI : <a href=\"" . FullPath() . $file_name . ".txt\">Download</a>";
-    } elseif ($_POST['method'] == 'update') {
     }
 }
