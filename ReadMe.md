@@ -27,7 +27,7 @@ Request as `POST`
 ### Body Parameters
 | Info  | Key  | Type  |
 |---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| command method  | create/clash  | string  |
+|  file name |  * | string  |
+| account password  |  * | varchar  |
+| port number  |  * | integer  |
