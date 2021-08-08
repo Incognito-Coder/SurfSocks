@@ -1,11 +1,9 @@
 # Instructions
-*This script was written to build a proxy list of Surfshark service servers.*
-
-*Change Host2Ip for bypass censorship*
-
+*This script was written to build a proxy list of Surfshark service servers.* \
+*Change Host2Ip for bypass censorship* \
 __To work with the script, you need a password and a port from the account on the Surfshark site__
 ### SurfShark: An introduction for users
-Surfshark proves its worth with a large collection of privacy tools, an excellent app, and unlimited device connections.
+Surfshark proves its worth with a large collection of privacy tools, an excellent app, and unlimited device connections.\
 Everythings you should know are at [Official Page](https://surfshark.com/features).
 ## Installation & Usage
 __You need to install `php` before this__
@@ -28,12 +26,12 @@ php app.php
 | Info  | Key  | Type  |
 |---|---|---|
 | command method  | create/clash  | string  |
-|  file name |  * | string  |
-| account password  |  * | varchar  |
-| port number  |  * | integer  |
+|  file name |  name | string  |
+| account password  |  pass | varchar  |
+| port number  |  port | integer  |
 # Credits
 Developer : Incognito Coder \
-and thanks to all who helped me for improving this little project.
+and thanks to all who helped me for improving this little project. \
 if you enjoy my content,consider to buy me a coffee here:
 1. Donate [ZarinPal](https://zarinp.al/@incognito)
-2. BTC : `bc1qw32nt9k23grx9qtcz5hlrfe9x5khpzevt2zk45`
+2. BTC : `bc1q62kaxyt2lyhcans6fr6u39qzndkydrz2uzae9a`
