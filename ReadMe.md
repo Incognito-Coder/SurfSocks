@@ -32,8 +32,8 @@ php app.php
 | account password  |  * | varchar  |
 | port number  |  * | integer  |
 # Credits
-Developer : Incognito Coder
-and thanks to all who helped me.
+Developer : Incognito Coder \
+and thanks to all who helped me for improving this little project.
 if you enjoy my content,consider to buy me a coffee here:
 1. Donate [ZarinPal](https://zarinp.al/@incognito)
 2. BTC : `bc1qw32nt9k23grx9qtcz5hlrfe9x5khpzevt2zk45`
