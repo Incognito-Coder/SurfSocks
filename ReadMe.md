@@ -19,23 +19,21 @@ php app.php
 1. Generate fresh Shadowsocks servers list.
 2. Update old hostname to ip address
 3. Create Clash config from surfshark servers.
-
 ## REQUEST Mode
 - Script now supports REST API mode.
 - Request as `POST`
-
 ### Body Parameters
 - **POST DATA to:** `app.php`
+
 | Info  | Key  | Type  |
 |---|---|---|
 | command method  | create/clash  | string  |
 |  file name |  * | string  |
 | account password  |  * | varchar  |
 | port number  |  * | integer  |
-
 # Credits
 Developer : Incognito Coder
 and thanks to all who helped me.
 if you enjoy my content,consider to buy me a coffee here:
 1. Donate [ZarinPal](https://zarinp.al/@incognito)
-2.BTC : `bc1qw32nt9k23grx9qtcz5hlrfe9x5khpzevt2zk45`
+2. BTC : `bc1qw32nt9k23grx9qtcz5hlrfe9x5khpzevt2zk45`
