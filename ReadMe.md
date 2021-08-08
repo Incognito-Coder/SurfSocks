@@ -18,4 +18,16 @@ php app.php
 ![Screenshot](https://github.com/Incognito-Coder/SurfSocks/blob/main/img/main.png "Application")
 1. Generate fresh Shadowsocks servers list.
 2. Update old hostname to ip address
-3. Donate [ZarinPal](https://zarinp.al/@incognito)
+3. Create Clash config from surfshark servers.
+4. Donate [ZarinPal](https://zarinp.al/@incognito)
+
+## REQUEST Mode
+Script now supports REST API mode.
+Request as `POST`
+### Body Parameters
+| Info  | Key  | Type  |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
