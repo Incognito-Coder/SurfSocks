@@ -31,6 +31,7 @@ php app.php
 | port number  |  port | integer  |
 # Credits
 Developer : Incognito Coder \
+Thanks : MrLinux [@VPNFolder](https://telegram.me/vpnfolder) \
 and thanks to all who helped me for improving this little project. \
 if you enjoy my content,consider to buy me a coffee here:
 1. Donate [ZarinPal](https://zarinp.al/@incognito)
