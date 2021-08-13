@@ -1,33 +1,23 @@
-port: 7890
-socks-port: 7891
+mixed-port: 10000
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:10100
 
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
   nameserver:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-query
-    - https://dns.quad9.net/dns-query
+    - 151.236.14.64
   fallback:
     - tls://dns.google:853
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
-    - https://dns.adguard.com/dns-query
-    - https://dnsforge.de/dns-query
-    - https://dns.quad9.net/dns-query
+    - tls://1.1.1.1:853
 
 proxies:
   - {
-      name: Albania・Tirana,
+      name: ALB🇦🇱・Tirana,
       server: al-tia.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -35,7 +25,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Argentina・Buenos Aires,
+      name: ARG🇦🇷・Buenos Aires,
       server: ar-bua.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -43,7 +33,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Australia・Brisbane,
+      name: AUS🇦🇺・Brisbane,
       server: au-bne.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -51,7 +41,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Australia・Adelaide,
+      name: AUS🇦🇺・Adelaide,
       server: au-adl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -59,7 +49,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Australia・Sydney,
+      name: AUS🇦🇺・Sydney,
       server: au-syd.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -67,7 +57,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Australia・Melbourne,
+      name: AUS🇦🇺・Melbourne,
       server: au-mel.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -75,7 +65,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Australia・Perth,
+      name: AUS🇦🇺・Perth,
       server: au-per.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -83,7 +73,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Austria・Vienna,
+      name: AUT🇦🇹・Vienna,
       server: at-vie.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -91,7 +81,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Azerbaijan・Baku,
+      name: AZE🇦🇿・Baku,
       server: az-bak.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -99,7 +89,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Belgium・Brussels,
+      name: BEL🇧🇪・Brussels,
       server: be-bru.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -107,7 +97,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Bosnia & Herzegovina・Sarajevo,
+      name:BIH🇧🇦・Sarajevo,
       server: ba-sjj.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -115,7 +105,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Brazil・Sao Paulo,
+      name:BRA🇧🇷・Sao Paulo,
       server: br-sao.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -123,7 +113,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Bulgaria・Sofia,
+      name:BUL🇧🇬・Sofia,
       server: bg-sof.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -131,7 +121,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Canada・Vancouver,
+      name: CAN🇨🇦・Vancouver,
       server: ca-van.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -139,7 +129,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Canada・Toronto,
+      name: CAN🇨🇦・Toronto,
       server: ca-tor.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -147,7 +137,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Canada・Montreal,
+      name: CAN🇨🇦・Montreal,
       server: ca-mon.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -155,7 +145,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Chile・Santiago,
+      name:CHL🇨🇱・Santiago,
       server: cl-san.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -163,7 +153,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Colombia・Bogota,
+      name:COL🇨🇴・Bogota,
       server: co-bog.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -171,7 +161,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Costa Rica・San Jose,
+      name:CRI🇨🇷・San Jose,
       server: cr-sjn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -179,7 +169,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Croatia・Zagreb,
+      name:HRV🇭🇷・Zagreb,
       server: hr-zag.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -187,7 +177,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Cyprus・Nicosia,
+      name:CYP🇨🇾・Nicosia,
       server: cy-nic.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -195,7 +185,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Czech Republic・Prague,
+      name:CZE🇨🇿・Prague,
       server: cz-prg.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -203,7 +193,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Denmark・Copenhagen,
+      name: DEN🇩🇰・Copenhagen,
       server: dk-cph.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -211,7 +201,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Estonia・Tallinn,
+      name: EST🇪🇪・Tallinn,
       server: ee-tll.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -219,7 +209,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Finland・Helsinki,
+      name: FIN🇫🇮・Helsinki,
       server: fi-hel.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -227,7 +217,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: France・Paris,
+      name: FRA🇫🇷・Paris,
       server: fr-par.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -235,7 +225,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: France・Bordeaux,
+      name: FRA🇫🇷・Bordeaux,
       server: fr-bod.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -243,7 +233,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: France・Marseille,
+      name: FRA🇫🇷・Marseille,
       server: fr-mrs.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -251,7 +241,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Georgia・Tbilisi,
+      name: GEO🇬🇪・Tbilisi,
       server: ge-tbs.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -259,7 +249,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Germany・Berlin,
+      name: GER🇩🇪・Berlin,
       server: de-ber.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -267,7 +257,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Germany・Frankfurt am Main,
+      name: GER🇩🇪・Frankfurt am Main,
       server: de-fra.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -275,7 +265,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Greece・Athens,
+      name: GRC🇬🇷・Athens,
       server: gr-ath.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -283,7 +273,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Hong Kong・Hong Kong,
+      name: HKG🇭🇰・HongKong,
       server: hk-hkg.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -291,7 +281,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Hungary・Budapest,
+      name: HUN🇭🇺・Budapest,
       server: hu-bud.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -299,7 +289,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Iceland・Reykjavik,
+      name: ISL🇮🇸・Reykjavik,
       server: is-rkv.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -307,7 +297,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: India・Mumbai,
+      name: IND🇮🇳・Mumbai,
       server: in-mum.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -315,7 +305,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: India・Chennai,
+      name: IND🇮🇳・Chennai,
       server: in-chn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -323,7 +313,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: India・Indore,
+      name: IND🇮🇳・Indore,
       server: in-idr.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -331,7 +321,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Indonesia・Jakarta,
+      name: IDN🇮🇩・Jakarta,
       server: id-jak.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -339,7 +329,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Ireland・Dublin,
+      name: IRL🇮🇪・Dublin,
       server: ie-dub.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -347,7 +337,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Israel・Tel Aviv,
+      name: ISR🇮🇱・Tel Aviv,
       server: il-tlv.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -355,7 +345,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Italy・Milan,
+      name: ITA🇮🇹・Milan,
       server: it-mil.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -363,7 +353,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Italy・Rome,
+      name: ITA🇮🇹・Rome,
       server: it-rom.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -371,7 +361,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Japan・Tokyo,
+      name: JPN🇯🇵・Tokyo,
       server: jp-tok.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -379,7 +369,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Kazakhstan・Oral,
+      name: KAZ🇰🇿・Oral,
       server: kz-ura.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -387,7 +377,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Latvia・Riga,
+      name: LVA🇱🇻・Riga,
       server: lv-rig.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -395,7 +385,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Luxembourg・Luxembourg,
+      name: LUX🇱🇺・LUX🇱🇺,
       server: lu-ste.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -403,7 +393,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Malaysia・Kuala Lumpur,
+      name: MYS🇲🇾・Kuala Lumpur,
       server: my-kul.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -411,7 +401,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Mexico・Mexico City,
+      name: MEX🇲🇽・Mexico City,
       server: mx-mex.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -419,7 +409,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Moldova・Chisinau,
+      name: MDA🇲🇩・Chisinau,
       server: md-chi.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -427,7 +417,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Netherlands・Amsterdam,
+      name: NLD🇳🇱・Amsterdam,
       server: nl-ams.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -435,7 +425,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: New Zealand・Auckland,
+      name: NZL🇳🇿・Auckland,
       server: nz-akl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -443,7 +433,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Nigeria・Lagos,
+      name: NGA🇳🇬・Lagos,
       server: ng-lag.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -451,7 +441,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: North Macedonia・Skopje,
+      name: MKD🇲🇰・Skopje,
       server: mk-skp.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -459,7 +449,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Norway・Oslo,
+      name: NOR🇳🇴・Oslo,
       server: no-osl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -467,7 +457,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Panama・Panama,
+      name: PAN🇵🇦・Panama,
       server: pa-pac.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -475,7 +465,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Peru・Lima,
+      name: PER🇵🇪・Lima,
       server: pe-lim.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -483,7 +473,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Philippines・Manila,
+      name: PHL🇵🇭・Manila,
       server: ph-mnl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -491,7 +481,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Poland・Gdansk,
+      name: POL🇵🇱・Gdansk,
       server: pl-gdn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -499,7 +489,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Poland・Warsaw,
+      name: POL🇵🇱・Warsaw,
       server: pl-waw.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -507,7 +497,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Portugal・Lisbon,
+      name: PRT🇵🇹・Lisbon,
       server: pt-lis.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -515,7 +505,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Portugal・Porto,
+      name: PRT🇵🇹・Porto,
       server: pt-opo.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -523,7 +513,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Romania・Bucharest,
+      name: ROU🇷🇴・Bucharest,
       server: ro-buc.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -531,7 +521,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Russia・Moscow,
+      name: RUS🇷🇺・Moscow,
       server: ru-mos.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -539,7 +529,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Serbia・Belgrade,
+      name: SRB🇷🇸・Belgrade,
       server: rs-beg.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -547,7 +537,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Singapore・Singapore,
+      name: SGP🇸🇬・Singapore,
       server: sg-sng.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -555,7 +545,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Slovakia・Bratislava,
+      name: SVK🇸🇰・Bratislava,
       server: sk-bts.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -563,7 +553,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Slovenia・Ljubljana,
+      name: SVN🇸🇮・Ljubljana,
       server: si-lju.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -571,7 +561,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: South Africa・Johannesburg,
+      name: ZAF🇿🇦・Johannesburg,
       server: za-jnb.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -579,7 +569,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: South Korea・Seoul,
+      name: KOR🇰🇷・Seoul,
       server: kr-seo.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -587,7 +577,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Spain・Barcelona,
+      name: ESP🇪🇸・Barcelona,
       server: es-bcn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -595,7 +585,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Spain・Madrid,
+      name: ESP🇪🇸・Madrid,
       server: es-mad.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -603,7 +593,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Spain・Valencia,
+      name: ESP🇪🇸・Valencia,
       server: es-vlc.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -611,7 +601,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Sweden・Stockholm,
+      name: SWE🇸🇪・Stockholm,
       server: se-sto.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -619,7 +609,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Switzerland・Zurich,
+      name: CHE🇨🇭・Zurich,
       server: ch-zur.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -627,7 +617,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Taiwan・Taichung City,
+      name: TWN🇹🇼・Taichung City,
       server: tw-tai.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -635,7 +625,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Thailand・Bangkok,
+      name: THA🇹🇭・Bangkok,
       server: th-bkk.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -643,7 +633,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Turkey・Istanbul,
+      name: TUR🇹🇷・Istanbul,
       server: tr-ist.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -651,7 +641,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Ukraine・Kyiv,
+      name: UKR🇺🇦・Kyiv,
       server: ua-iev.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -659,7 +649,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United Arab Emirates・Dubai,
+      name: UAE🇦🇪・Dubai,
       server: ae-dub.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -667,7 +657,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United Kingdom・Glasgow,
+      name: GBR🇬🇧・Glasgow,
       server: uk-gla.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -675,7 +665,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United Kingdom・London,
+      name: GBR🇬🇧・London,
       server: uk-lon.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -683,7 +673,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United Kingdom・Manchester,
+      name: GBR🇬🇧・Manchester,
       server: uk-man.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -691,7 +681,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Miami,
+      name: USA🇺🇸・Miami,
       server: us-mia.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -699,7 +689,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Ashburn,
+      name: USA🇺🇸・Ashburn,
       server: us-ash.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -707,7 +697,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・New York,
+      name: USA🇺🇸・New York,
       server: us-nyc.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -715,7 +705,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Tampa,
+      name: USA🇺🇸・Tampa,
       server: us-tpa.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -723,7 +713,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Buffalo,
+      name: USA🇺🇸・Buffalo,
       server: us-buf.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -731,7 +721,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Boston,
+      name: USA🇺🇸・Boston,
       server: us-bos.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -739,7 +729,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Latham,
+      name: USA🇺🇸・Latham,
       server: us-ltm.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -747,7 +737,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Orlando,
+      name: USA🇺🇸・Orlando,
       server: us-orl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -755,7 +745,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Manassas,
+      name: USA🇺🇸・Manassas,
       server: us-mnz.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -763,7 +753,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Atlanta,
+      name: USA🇺🇸・Atlanta,
       server: us-atl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -771,7 +761,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Detroit,
+      name: USA🇺🇸・Detroit,
       server: us-dtw.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -779,7 +769,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Houston,
+      name: USA🇺🇸・Houston,
       server: us-hou.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -787,7 +777,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・St. Louis,
+      name: USA🇺🇸・St. Louis,
       server: us-stl.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -795,7 +785,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Salt Lake City,
+      name: USA🇺🇸・Salt Lake City,
       server: us-slc.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -803,7 +793,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Charlotte,
+      name: USA🇺🇸・Charlotte,
       server: us-clt.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -811,7 +801,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Chicago,
+      name: USA🇺🇸・Chicago,
       server: us-chi.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -819,7 +809,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Phoenix,
+      name: USA🇺🇸・Phoenix,
       server: us-phx.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -827,7 +817,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Kansas City,
+      name: USA🇺🇸・Kansas City,
       server: us-kan.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -835,7 +825,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Dallas,
+      name: USA🇺🇸・Dallas,
       server: us-dal.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -843,7 +833,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Denver,
+      name: USA🇺🇸・Denver,
       server: us-den.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -851,7 +841,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Seattle,
+      name: USA🇺🇸・Seattle,
       server: us-sea.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -859,7 +849,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・San Francisco,
+      name: USA🇺🇸・San Francisco,
       server: us-sfo.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -867,7 +857,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Las Vegas,
+      name: USA🇺🇸・Las Vegas,
       server: us-las.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -875,7 +865,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Los Angeles,
+      name: USA🇺🇸・Los Angeles,
       server: us-lax.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -883,7 +873,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: United states・Bend,
+      name: USA🇺🇸・Bend,
       server: us-bdn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -891,7 +881,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Venezuela・Caracas,
+      name: VEN🇻🇪・Caracas,
       server: ve-car.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -899,7 +889,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: Vietnam・Ho Chi Minh City,
+      name: VNM🇻🇳・Ho Chi Minh City,
       server: vn-hcm.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -907,233 +897,249 @@ proxies:
       password: PASS,
     }
 proxy-groups:
-  - name: SELECT
+  - name: Menu
     type: select
     proxies:
-      - Albania・Tirana
-      - Argentina・Buenos Aires
-      - Australia・Brisbane
-      - Australia・Adelaide
-      - Australia・Sydney
-      - Australia・Melbourne
-      - Australia・Perth
-      - Austria・Vienna
-      - Azerbaijan・Baku
-      - Belgium・Brussels
-      - Bosnia & Herzegovina・Sarajevo
-      - Brazil・Sao Paulo
-      - Bulgaria・Sofia
-      - Canada・Vancouver
-      - Canada・Toronto
-      - Canada・Montreal
-      - Chile・Santiago
-      - Colombia・Bogota
-      - Costa Rica・San Jose
-      - Croatia・Zagreb
-      - Cyprus・Nicosia
-      - Czech Republic・Prague
-      - Denmark・Copenhagen
-      - Estonia・Tallinn
-      - Finland・Helsinki
-      - France・Paris
-      - France・Bordeaux
-      - France・Marseille
-      - Georgia・Tbilisi
-      - Germany・Berlin
-      - Germany・Frankfurt am Main
-      - Greece・Athens
-      - Hong Kong・Hong Kong
-      - Hungary・Budapest
-      - Iceland・Reykjavik
-      - India・Mumbai
-      - India・Chennai
-      - India・Indore
-      - Indonesia・Jakarta
-      - Ireland・Dublin
-      - Israel・Tel Aviv
-      - Italy・Milan
-      - Italy・Rome
-      - Japan・Tokyo
-      - Kazakhstan・Oral
-      - Latvia・Riga
-      - Luxembourg・Luxembourg
-      - Malaysia・Kuala Lumpur
-      - Mexico・Mexico City
-      - Moldova・Chisinau
-      - Netherlands・Amsterdam
-      - New Zealand・Auckland
-      - Nigeria・Lagos
-      - North Macedonia・Skopje
-      - Norway・Oslo
-      - Panama・Panama
-      - Peru・Lima
-      - Philippines・Manila
-      - Poland・Gdansk
-      - Poland・Warsaw
-      - Portugal・Lisbon
-      - Portugal・Porto
-      - Romania・Bucharest
-      - Russia・Moscow
-      - Serbia・Belgrade
-      - Singapore・Singapore
-      - Slovakia・Bratislava
-      - Slovenia・Ljubljana
-      - South Africa・Johannesburg
-      - South Korea・Seoul
-      - Spain・Barcelona
-      - Spain・Madrid
-      - Spain・Valencia
-      - Sweden・Stockholm
-      - Switzerland・Zurich
-      - Taiwan・Taichung City
-      - Thailand・Bangkok
-      - Turkey・Istanbul
-      - Ukraine・Kyiv
-      - United Arab Emirates・Dubai
-      - United Kingdom・Glasgow
-      - United Kingdom・London
-      - United Kingdom・Manchester
-      - United states・Miami
-      - United states・Ashburn
-      - United states・New York
-      - United states・Tampa
-      - United states・Buffalo
-      - United states・Boston
-      - United states・Latham
-      - United states・Orlando
-      - United states・Manassas
-      - United states・Atlanta
-      - United states・Detroit
-      - United states・Houston
-      - United states・St. Louis
-      - United states・Salt Lake City
-      - United states・Charlotte
-      - United states・Chicago
-      - United states・Phoenix
-      - United states・Kansas City
-      - United states・Dallas
-      - United states・Denver
-      - United states・Seattle
-      - United states・San Francisco
-      - United states・Las Vegas
-      - United states・Los Angeles
-      - United states・Bend
-      - Venezuela・Caracas
-      - Vietnam・Ho Chi Minh City
-  - name: BESTPING
+      - AUTOMATIC
+      - MANUAL
+  - name: MANUAL
+    type: select
+    proxies:
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・alt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸 • Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
+  - name: AUTOMATIC
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Albania・Tirana
-      - Argentina・Buenos Aires
-      - Australia・Brisbane
-      - Australia・Adelaide
-      - Australia・Sydney
-      - Australia・Melbourne
-      - Australia・Perth
-      - Austria・Vienna
-      - Azerbaijan・Baku
-      - Belgium・Brussels
-      - Bosnia & Herzegovina・Sarajevo
-      - Brazil・Sao Paulo
-      - Bulgaria・Sofia
-      - Canada・Vancouver
-      - Canada・Toronto
-      - Canada・Montreal
-      - Chile・Santiago
-      - Colombia・Bogota
-      - Costa Rica・San Jose
-      - Croatia・Zagreb
-      - Cyprus・Nicosia
-      - Czech Republic・Prague
-      - Denmark・Copenhagen
-      - Estonia・Tallinn
-      - Finland・Helsinki
-      - France・Paris
-      - France・Bordeaux
-      - France・Marseille
-      - Georgia・Tbilisi
-      - Germany・Berlin
-      - Germany・Frankfurt am Main
-      - Greece・Athens
-      - Hong Kong・Hong Kong
-      - Hungary・Budapest
-      - Iceland・Reykjavik
-      - India・Mumbai
-      - India・Chennai
-      - India・Indore
-      - Indonesia・Jakarta
-      - Ireland・Dublin
-      - Israel・Tel Aviv
-      - Italy・Milan
-      - Italy・Rome
-      - Japan・Tokyo
-      - Kazakhstan・Oral
-      - Latvia・Riga
-      - Luxembourg・Luxembourg
-      - Malaysia・Kuala Lumpur
-      - Mexico・Mexico City
-      - Moldova・Chisinau
-      - Netherlands・Amsterdam
-      - New Zealand・Auckland
-      - Nigeria・Lagos
-      - North Macedonia・Skopje
-      - Norway・Oslo
-      - Panama・Panama
-      - Peru・Lima
-      - Philippines・Manila
-      - Poland・Gdansk
-      - Poland・Warsaw
-      - Portugal・Lisbon
-      - Portugal・Porto
-      - Romania・Bucharest
-      - Russia・Moscow
-      - Serbia・Belgrade
-      - Singapore・Singapore
-      - Slovakia・Bratislava
-      - Slovenia・Ljubljana
-      - South Africa・Johannesburg
-      - South Korea・Seoul
-      - Spain・Barcelona
-      - Spain・Madrid
-      - Spain・Valencia
-      - Sweden・Stockholm
-      - Switzerland・Zurich
-      - Taiwan・Taichung City
-      - Thailand・Bangkok
-      - Turkey・Istanbul
-      - Ukraine・Kyiv
-      - United Arab Emirates・Dubai
-      - United Kingdom・Glasgow
-      - United Kingdom・London
-      - United Kingdom・Manchester
-      - United states・Miami
-      - United states・Ashburn
-      - United states・New York
-      - United states・Tampa
-      - United states・Buffalo
-      - United states・Boston
-      - United states・Latham
-      - United states・Orlando
-      - United states・Manassas
-      - United states・Atlanta
-      - United states・Detroit
-      - United states・Houston
-      - United states・St. Louis
-      - United states・Salt Lake City
-      - United states・Charlotte
-      - United states・Chicago
-      - United states・Phoenix
-      - United states・Kansas City
-      - United states・Dallas
-      - United states・Denver
-      - United states・Seattle
-      - United states・San Francisco
-      - United states・Las Vegas
-      - United states・Los Angeles
-      - United states・Bend
-      - Venezuela・Caracas
-      - Vietnam・Ho Chi Minh City
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
 rules:
-  - MATCH,BESTPING,SELECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - GEOIP,IR,DIRECT
+  - MATCH,AUTOMATIC
