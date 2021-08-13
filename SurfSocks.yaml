@@ -145,7 +145,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:CHL🇨🇱・Santiago,
+      name: CHL🇨🇱・Santiago,
       server: cl-san.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -385,7 +385,7 @@ proxies:
       password: PASS,
     }
   - {
-      name: LUX🇱🇺・LUX🇱🇺,
+      name: LUX🇱🇺・Luxembourg,
       server: lu-ste.prod.surfshark.com,
       port: 8585,
       type: ss,
