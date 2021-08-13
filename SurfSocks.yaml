@@ -97,7 +97,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:BIH🇧🇦・Sarajevo,
+      name: BIH🇧🇦・Sarajevo,
       server: ba-sjj.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -105,7 +105,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:BRA🇧🇷・Sao Paulo,
+      name: BRA🇧🇷・Sao Paulo,
       server: br-sao.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -113,7 +113,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:BUL🇧🇬・Sofia,
+      name: BUL🇧🇬・Sofia,
       server: bg-sof.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -153,7 +153,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:COL🇨🇴・Bogota,
+      name: COL🇨🇴・Bogota,
       server: co-bog.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -161,7 +161,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:CRI🇨🇷・San Jose,
+      name: CRI🇨🇷・San Jose,
       server: cr-sjn.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -169,7 +169,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:HRV🇭🇷・Zagreb,
+      name: HRV🇭🇷・Zagreb,
       server: hr-zag.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -177,7 +177,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:CYP🇨🇾・Nicosia,
+      name: CYP🇨🇾・Nicosia,
       server: cy-nic.prod.surfshark.com,
       port: 8585,
       type: ss,
@@ -185,7 +185,7 @@ proxies:
       password: PASS,
     }
   - {
-      name:CZE🇨🇿・Prague,
+      name: CZE🇨🇿・Prague,
       server: cz-prg.prod.surfshark.com,
       port: 8585,
       type: ss,
