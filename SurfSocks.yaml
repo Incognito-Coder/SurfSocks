@@ -7,13 +7,15 @@ external-controller: 127.0.0.1:10100
 dns:
   enable: true
   ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 1.0.0.1
   nameserver:
-    - 151.236.14.64
+    - https://doh-de.blahdns.com/dns-query
   fallback:
-    - tls://dns.google:853
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - tls://1.1.1.1:853
+    - https://doh-de.blahdns.com/dns-query
+  fallback-filter:
+    geoip: true
 
 proxies:
   - {
@@ -897,12 +899,12 @@ proxies:
       password: PASS,
     }
 proxy-groups:
-  - name: Menu
+  - name: 🛠 MENU
     type: select
     proxies:
-      - AUTOMATIC
-      - MANUAL
-  - name: MANUAL
+      - ✈️ AUTOMATIC
+      - 🚀 MANUAL
+  - name: 🚀 MANUAL
     type: select
     proxies:
       - ALB🇦🇱・Tirana
@@ -1015,7 +1017,7 @@ proxy-groups:
       - USA🇺🇸・Bend
       - VEN🇻🇪・Caracas
       - VNM🇻🇳・Ho Chi Minh City
-  - name: AUTOMATIC
+  - name: ✈️ AUTOMATIC
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -1141,5 +1143,5 @@ rules:
   - IP-CIDR6,fc00::/7,DIRECT,no-resolve
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
   - IP-CIDR6,fd00::/8,DIRECT,no-resolve
-  - GEOIP,IR,DIRECT
-  - MATCH,AUTOMATIC
+  - GEOIP,IR,DIRECT,
+  - MATCH,🛠 MENU
