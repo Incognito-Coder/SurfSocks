@@ -2,7 +2,7 @@
 
 /**
  * Developer : Incognito Coder
- * Release : 1.4.3 2021/07/08
+ * Release : 1.5.0 2021/08/24
  * Telegram : @IC_Mods
  */
 
@@ -123,10 +123,25 @@ function Update()
         die($e);
     }
 }
+function CheckResources()
+{
+    if (is_file('profiles.json')) {
+        echo 'Shadowsocks template : Found' . PHP_EOL;
+    } else {
+        echo 'Downloading Shadows';
+        copy('https://raw.githubusercontent.com/Incognito-Coder/SurfSocks/main/profiles.json', 'profiles.json');
+    }
+    if (is_file('profiles.json')) {
+        echo 'Clash template : Found' . PHP_EOL;
+    } else {
+        echo 'Downloading Clash';
+        copy('https://raw.githubusercontent.com/Incognito-Coder/SurfSocks/main/SurfSocks.yaml', 'SurfSocks.yaml');
+    }
+}
 
 if (isCommandLineInterface()) {
     echo "========================================================\n\tWelcome To SurfShark SS Updater/Generator\n\t\tScripter : @Incognito_Coder\n========================================================\n";
-    echo "\033[32m1 - Generate SS list with Credentials\n2 - Update SS list\n3 - Create Clash Config.yaml\n4 - About script\n5 - Exit\033[0m\n";
+    echo "\033[32m1 - Generate SS list with Credentials\n2 - Update SS list\n3 - Create Clash Config.yaml\n4 - About script\n5 - Exit\n\n+ - Install Assets\033[0m\n";
     $opt = readline("\033[36mSelect a option: \033[0m");
     switch ($opt) {
         case '1':
@@ -144,6 +159,9 @@ if (isCommandLineInterface()) {
             break;
         case '5':
             exit;
+            break;
+        case '+':
+            CheckResources();
             break;
         default:
             echo "\033[33mUndefined entry.\033[0m\n";
