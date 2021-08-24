@@ -25,6 +25,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ARG🇦🇷・Buenos Aires,
@@ -33,6 +34,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUS🇦🇺・Brisbane,
@@ -41,6 +43,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUS🇦🇺・Adelaide,
@@ -49,6 +52,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUS🇦🇺・Sydney,
@@ -57,6 +61,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUS🇦🇺・Melbourne,
@@ -65,6 +70,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUS🇦🇺・Perth,
@@ -73,6 +79,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AUT🇦🇹・Vienna,
@@ -81,6 +88,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: AZE🇦🇿・Baku,
@@ -89,6 +97,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: BEL🇧🇪・Brussels,
@@ -97,6 +106,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: BIH🇧🇦・Sarajevo,
@@ -105,6 +115,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: BRA🇧🇷・Sao Paulo,
@@ -113,6 +124,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: BUL🇧🇬・Sofia,
@@ -121,6 +133,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CAN🇨🇦・Vancouver,
@@ -129,6 +142,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CAN🇨🇦・Toronto,
@@ -137,6 +151,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CAN🇨🇦・Montreal,
@@ -145,6 +160,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CHL🇨🇱・Santiago,
@@ -153,6 +169,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: COL🇨🇴・Bogota,
@@ -161,6 +178,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CRI🇨🇷・San Jose,
@@ -169,6 +187,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: HRV🇭🇷・Zagreb,
@@ -177,6 +196,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CYP🇨🇾・Nicosia,
@@ -185,6 +205,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CZE🇨🇿・Prague,
@@ -193,6 +214,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: DEN🇩🇰・Copenhagen,
@@ -201,6 +223,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: EST🇪🇪・Tallinn,
@@ -209,6 +232,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: FIN🇫🇮・Helsinki,
@@ -217,6 +241,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: FRA🇫🇷・Paris,
@@ -225,6 +250,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: FRA🇫🇷・Bordeaux,
@@ -233,6 +259,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: FRA🇫🇷・Marseille,
@@ -241,6 +268,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GEO🇬🇪・Tbilisi,
@@ -249,6 +277,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GER🇩🇪・Berlin,
@@ -257,6 +286,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GER🇩🇪・Frankfurt am Main,
@@ -265,6 +295,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GRC🇬🇷・Athens,
@@ -273,6 +304,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: HKG🇭🇰・HongKong,
@@ -281,6 +313,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: HUN🇭🇺・Budapest,
@@ -289,6 +322,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ISL🇮🇸・Reykjavik,
@@ -297,6 +331,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: IND🇮🇳・Mumbai,
@@ -305,6 +340,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: IND🇮🇳・Chennai,
@@ -313,6 +349,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: IND🇮🇳・Indore,
@@ -321,6 +358,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: IDN🇮🇩・Jakarta,
@@ -329,6 +367,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: IRL🇮🇪・Dublin,
@@ -337,6 +376,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ISR🇮🇱・Tel Aviv,
@@ -345,6 +385,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ITA🇮🇹・Milan,
@@ -353,6 +394,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ITA🇮🇹・Rome,
@@ -361,6 +403,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: JPN🇯🇵・Tokyo,
@@ -369,6 +412,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: KAZ🇰🇿・Oral,
@@ -377,6 +421,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: LVA🇱🇻・Riga,
@@ -385,6 +430,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: LUX🇱🇺・Luxembourg,
@@ -393,6 +439,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: MYS🇲🇾・Kuala Lumpur,
@@ -401,6 +448,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: MEX🇲🇽・Mexico City,
@@ -409,6 +457,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: MDA🇲🇩・Chisinau,
@@ -417,6 +466,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: NLD🇳🇱・Amsterdam,
@@ -425,6 +475,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: NZL🇳🇿・Auckland,
@@ -433,6 +484,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: NGA🇳🇬・Lagos,
@@ -441,6 +493,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: MKD🇲🇰・Skopje,
@@ -449,6 +502,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: NOR🇳🇴・Oslo,
@@ -457,6 +511,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: PAN🇵🇦・Panama,
@@ -465,6 +520,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: PER🇵🇪・Lima,
@@ -473,6 +529,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: PHL🇵🇭・Manila,
@@ -481,6 +538,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: POL🇵🇱・Gdansk,
@@ -489,6 +547,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: POL🇵🇱・Warsaw,
@@ -497,6 +556,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: PRT🇵🇹・Lisbon,
@@ -505,6 +565,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: PRT🇵🇹・Porto,
@@ -513,6 +574,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ROU🇷🇴・Bucharest,
@@ -521,6 +583,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: RUS🇷🇺・Moscow,
@@ -529,6 +592,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: SRB🇷🇸・Belgrade,
@@ -537,6 +601,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: SGP🇸🇬・Singapore,
@@ -545,6 +610,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: SVK🇸🇰・Bratislava,
@@ -553,6 +619,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: SVN🇸🇮・Ljubljana,
@@ -561,6 +628,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ZAF🇿🇦・Johannesburg,
@@ -569,6 +637,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: KOR🇰🇷・Seoul,
@@ -577,6 +646,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ESP🇪🇸・Barcelona,
@@ -585,6 +655,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ESP🇪🇸・Madrid,
@@ -593,6 +664,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: ESP🇪🇸・Valencia,
@@ -601,6 +673,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: SWE🇸🇪・Stockholm,
@@ -609,6 +682,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: CHE🇨🇭・Zurich,
@@ -617,6 +691,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: TWN🇹🇼・Taichung City,
@@ -625,6 +700,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: THA🇹🇭・Bangkok,
@@ -633,6 +709,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: TUR🇹🇷・Istanbul,
@@ -641,6 +718,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: UKR🇺🇦・Kyiv,
@@ -649,6 +727,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: UAE🇦🇪・Dubai,
@@ -657,6 +736,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GBR🇬🇧・Glasgow,
@@ -665,6 +745,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GBR🇬🇧・London,
@@ -673,6 +754,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: GBR🇬🇧・Manchester,
@@ -681,6 +763,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Miami,
@@ -689,6 +772,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Ashburn,
@@ -697,6 +781,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・New York,
@@ -705,6 +790,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Tampa,
@@ -713,6 +799,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Buffalo,
@@ -721,6 +808,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Boston,
@@ -729,6 +817,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Latham,
@@ -737,6 +826,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Orlando,
@@ -745,6 +835,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Manassas,
@@ -753,6 +844,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Atlanta,
@@ -761,6 +853,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Detroit,
@@ -769,6 +862,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Houston,
@@ -777,6 +871,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・St. Louis,
@@ -785,6 +880,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Salt Lake City,
@@ -793,6 +889,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Charlotte,
@@ -801,6 +898,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Chicago,
@@ -809,6 +907,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Phoenix,
@@ -817,6 +916,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Kansas City,
@@ -825,6 +925,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Dallas,
@@ -833,6 +934,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Denver,
@@ -841,6 +943,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Seattle,
@@ -849,6 +952,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・San Francisco,
@@ -857,6 +961,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Las Vegas,
@@ -865,6 +970,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Los Angeles,
@@ -873,6 +979,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: USA🇺🇸・Bend,
@@ -881,6 +988,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: VEN🇻🇪・Caracas,
@@ -889,6 +997,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
   - {
       name: VNM🇻🇳・Ho Chi Minh City,
@@ -897,6 +1006,7 @@ proxies:
       type: ss,
       cipher: aes-256-gcm,
       password: PASS,
+      udp: true,
     }
 proxy-groups:
   - name: 🛠 MENU
