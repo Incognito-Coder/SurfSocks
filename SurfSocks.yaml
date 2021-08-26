@@ -12,8 +12,10 @@ dns:
     - 1.0.0.1
   nameserver:
     - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
   fallback:
     - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
   fallback-filter:
     geoip: true
 
