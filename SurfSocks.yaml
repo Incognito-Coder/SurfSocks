@@ -9,7 +9,7 @@ dns:
   ipv6: false
   enhanced-mode: redir-host
   default-nameserver:
-    - 1.0.0.1
+    - 1.1.1.1
   nameserver:
     - https://doh-de.blahdns.com/dns-query
     - https://dns.comss.one/dns-query
@@ -104,6 +104,15 @@ proxies:
   - {
       name: BEL🇧🇪・Brussels,
       server: be-bru.prod.surfshark.com,
+      port: 8585,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PASS,
+      udp: true,
+    }
+  - {
+      name: BEL🇧🇪・Antwerp,
+      server: be-anr.prod.surfshark.com,
       port: 8585,
       type: ss,
       cipher: aes-256-gcm,
@@ -1029,6 +1038,7 @@ proxy-groups:
       - AUT🇦🇹・Vienna
       - AZE🇦🇿・Baku
       - BEL🇧🇪・Brussels
+      - BEL🇧🇪・Antwerp
       - BIH🇧🇦・Sarajevo
       - BRA🇧🇷・Sao Paulo
       - BUL🇧🇬・Sofia
@@ -1144,6 +1154,7 @@ proxy-groups:
       - AUT🇦🇹・Vienna
       - AZE🇦🇿・Baku
       - BEL🇧🇪・Brussels
+      - BEL🇧🇪・Antwerp
       - BIH🇧🇦・Sarajevo
       - BRA🇧🇷・Sao Paulo
       - BUL🇧🇬・Sofia

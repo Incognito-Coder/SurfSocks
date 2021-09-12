@@ -150,6 +150,21 @@
     "udpdns": false
   },
   {
+    "server": "be-anr.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇧🇪 Belgium・Antwerp",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
     "server": "ba-sjj.prod.surfshark.com",
     "server_port": 8585,
     "password": "PASS",
