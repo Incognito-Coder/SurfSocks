@@ -28,6 +28,7 @@ __Cant run it? use repl.it__ [SurfSocks on Repl.it](https://replit.com/@Incognit
 1. Generate fresh Shadowsocks servers list.
 2. Update old hostname to ip address
 3. Create Clash config from surfshark servers.
+4. To download SurfShark edited __OPENVPN__ configs clone and run this [Gist](https://gist.github.com/Incognito-Coder/5e44df201322081739a1eb97dcec4ce2)
 
 ## REQUEST Mode
 
