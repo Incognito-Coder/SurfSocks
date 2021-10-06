@@ -15,6 +15,21 @@
     "udpdns": false
   },
   {
+    "server": "dz-alg.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇩🇿 Algeria・Algiers",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
     "server": "ar-bua.prod.surfshark.com",
     "server_port": 8585,
     "password": "PASS",
@@ -725,6 +740,21 @@
     "password": "PASS",
     "method": "aes-256-gcm",
     "remarks": "🇲🇾 Malaysia・Kuala Lumpur",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "mt-mla.prod.surfshark.com",
+    "server_port": 8585,
+    "password": "PASS",
+    "method": "aes-256-gcm",
+    "remarks": "🇲🇹 Malta・Valletta",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
@@ -1640,21 +1670,6 @@
     "password": "PASS",
     "method": "aes-256-gcm",
     "remarks": "🇻🇪 Venezuela・Caracas",
-    "route": "all",
-    "remote_dns": "dns.google",
-    "ipv6": false,
-    "metered": false,
-    "proxy_apps": {
-      "enabled": false
-    },
-    "udpdns": false
-  },
-  {
-    "server": "vn-hcm.prod.surfshark.com",
-    "server_port": 8585,
-    "password": "PASS",
-    "method": "aes-256-gcm",
-    "remarks": "🇻🇳 Vietnam・Ho Chi Minh City",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,

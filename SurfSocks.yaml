@@ -9,7 +9,7 @@ dns:
   ipv6: false
   enhanced-mode: redir-host
   default-nameserver:
-    - 1.1.1.1
+    - 8.8.8.8
   nameserver:
     - https://doh-de.blahdns.com/dns-query
     - https://dns.comss.one/dns-query
@@ -23,6 +23,15 @@ proxies:
   - {
       name: ALB🇦🇱・Tirana,
       server: al-tia.prod.surfshark.com,
+      port: 8585,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PASS,
+      udp: true,
+    }
+  - {
+      name: DZA🇩🇿・Algiers,
+      server: dz-alg.prod.surfshark.com,
       port: 8585,
       type: ss,
       cipher: aes-256-gcm,
@@ -455,6 +464,15 @@ proxies:
   - {
       name: MYS🇲🇾・Kuala Lumpur,
       server: my-kul.prod.surfshark.com,
+      port: 8585,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PASS,
+      udp: true,
+    }
+  - {
+      name: MLT🇲🇹・Valletta,
+      server: mt-mla.prod.surfshark.com,
       port: 8585,
       type: ss,
       cipher: aes-256-gcm,
@@ -1010,15 +1028,6 @@ proxies:
       password: PASS,
       udp: true,
     }
-  - {
-      name: VNM🇻🇳・Ho Chi Minh City,
-      server: vn-hcm.prod.surfshark.com,
-      port: 8585,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: PASS,
-      udp: true,
-    }
 proxy-groups:
   - name: 🛠 MENU
     type: select
@@ -1029,6 +1038,7 @@ proxy-groups:
     type: select
     proxies:
       - ALB🇦🇱・Tirana
+      - DZA🇩🇿・Algiers
       - ARG🇦🇷・Buenos Aires
       - AUS🇦🇺・Brisbane
       - AUS🇦🇺・Adelaide
@@ -1077,6 +1087,7 @@ proxy-groups:
       - LVA🇱🇻・Riga
       - LUX🇱🇺・Luxembourg
       - MYS🇲🇾・Kuala Lumpur
+      - MLT🇲🇹・Valletta
       - MEX🇲🇽・Mexico City
       - MDA🇲🇩・Chisinau
       - NLD🇳🇱・Amsterdam
@@ -1138,13 +1149,13 @@ proxy-groups:
       - USA🇺🇸・Los Angeles
       - USA🇺🇸・Bend
       - VEN🇻🇪・Caracas
-      - VNM🇻🇳・Ho Chi Minh City
   - name: ✈️ AUTOMATIC
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - ALB🇦🇱・Tirana
+      - DZA🇩🇿・Algiers
       - ARG🇦🇷・Buenos Aires
       - AUS🇦🇺・Brisbane
       - AUS🇦🇺・Adelaide
@@ -1193,6 +1204,7 @@ proxy-groups:
       - LVA🇱🇻・Riga
       - LUX🇱🇺・Luxembourg
       - MYS🇲🇾・Kuala Lumpur
+      - MLT🇲🇹・Valletta
       - MEX🇲🇽・Mexico City
       - MDA🇲🇩・Chisinau
       - NLD🇳🇱・Amsterdam
@@ -1254,7 +1266,6 @@ proxy-groups:
       - USA🇺🇸・Los Angeles
       - USA🇺🇸・Bend
       - VEN🇻🇪・Caracas
-      - VNM🇻🇳・Ho Chi Minh City
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
